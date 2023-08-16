@@ -4,7 +4,7 @@ The goals of the project are to
 * Practice writing Python code using conditionals, loops, and the mod operator
 * Practice writing unit tests for functions.
 
-# Prerequisites
+## Prerequisites
 
 <b>Before you begin:</b> Make sure you have 
  * created a [GitHub](https://www.github.com) account,
@@ -12,7 +12,7 @@ The goals of the project are to
  * created a public/private ssh keypair, and
  * uploaded the public key to your GitHub account. (See [this video](https://www.youtube.com/watch?v=vw1k0PUpSeM).)
 
-# Instructions
+## Instructions
 
 For this project, you will write and test a Python module that contains several date-related functions.
 
