@@ -16,7 +16,7 @@ The goals of the project are to
 
 For this project, you will write and test a Python module that contains several date-related functions.
 
-1. Begin by following this GitHub Classroom link (), accepting the assignment, then cloning the resulting repo.
+1. Begin by following this GitHub Classroom link (https://classroom.github.com/a/S3bMe4pm), accepting the assignment, then cloning the resulting repo.
 
 2. Next, look at `my_date.py`.  This file contains shells for the four functions you will implement. A comment in each function describes its expected behavior. Ask the instructor if it is not clear what a function should do.
 
