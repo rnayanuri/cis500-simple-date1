@@ -1,5 +1,5 @@
 import unittest
-import my_date
+import my_date import ordinal_date, day_of_week, to_str
 
 class MyDateTest(unittest.Testcase):
 
