@@ -1,7 +1,7 @@
 import unittest
-import my_date import ordinal_date, day_of_week, to_str
+import my_date 
 
-class MyDateTest(unittest.Testcase):
+class MyDateTest(unittest.TestCase):
 
     def test_year_divisible_by_4(self):
         self.assertTrue(my_date.is_leap_year(2024))
