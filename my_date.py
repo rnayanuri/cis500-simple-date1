@@ -79,8 +79,7 @@ DAYS_OF_WEEK = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturda
 
 def day_of_week(year: int, month: int, day: int) -> str:
 
-    Hint 1: 1 January 1753 was a Monday.
-    Hint 2: Use the methods you've already written."""
+
 
 
     days_elapsed = ordinal_date(year, month, day) - ordinal_date(1753, 1, 1)
