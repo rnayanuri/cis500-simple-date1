@@ -54,6 +54,9 @@ class MyDateTest(unittest.TestCase):
     def test_year_2020_month_2_day_29_to_year_2020_month_2_day_29(self):
         self.assertEqual(my_date.days_elapsed(2020, 2, 29, 2020, 2, 29), 0)
 
+    def test_day_of_week1(self):
+        self.assertEqual('Wednesday', my_date.day_of_week(2023, 9, 27))
+
 
     def test_ordinal_date_2023_month_1_day_1(self):
         self.assertEqual(my_date.ordinal_date(2023, 1, 1), 1)
