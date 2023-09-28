@@ -1,7 +1,7 @@
 #######################################################
 # my_date
 #
-# Name: zzNAMEzz (Raghavendra)
+# Name: zzNAMEzz (replace with your name)
 # Section: XX
 #
 # Fall 2023
@@ -60,7 +60,11 @@ def to_str(year: int, month: int, day: int) -> str:
     """ Return this date as string of the form "Wednesday, 07 March 1833"."""
     month_list=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November",  "December"]
     week_day=day_of_week(year,month,day)
-    result=str(week_day)+", "+str(day)+" "+month_list[month-1]+" "+str(year)
+    if(day<10):
+        s="0"+str(day)
+    else:
+        s=str(day)
+    result=str(week_day)+", "+s+" "+month_list[month-1]+" "+str(year)
     return result
 
 
